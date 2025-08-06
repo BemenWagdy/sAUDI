@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Al Orjouan",
+    "cuisine": "Traditional Saudi",
+    "location": "Riyadh",
+    "rating": 4.8,
+    "pricePerPerson": 180,
+    "signature": "Lamb Kabsa with Arabic Rice",
+    "description": "Authentic Saudi cuisine in an elegant traditional setting"
+  },
+  {
+    "id": 2,
+    "name": "Najd Village",
+    "cuisine": "Regional Saudi",
+    "location": "Riyadh", 
+    "rating": 4.6,
+    "pricePerPerson": 120,
+    "signature": "Traditional Mandi with Local Spices",
+    "description": "Experience the flavors of Najd region"
+  },
+  {
+    "id": 3,
+    "name": "The Globe",
+    "cuisine": "International",
+    "location": "Riyadh",
+    "rating": 4.7,
+    "pricePerPerson": 280,
+    "signature": "Contemporary Fusion Dishes",
+    "description": "Fine dining with panoramic city views"
+  },
+  {
+    "id": 4,
+    "name": "Lusin",
+    "cuisine": "Armenian",
+    "location": "Riyadh",
+    "rating": 4.5,
+    "pricePerPerson": 200,
+    "signature": "Grilled Lamb with Middle Eastern Flavors",
+    "description": "Authentic Armenian cuisine with Saudi influences"
+  },
+  {
+    "id": 5,
+    "name": "Al Faisaliah Tower Restaurant",
+    "cuisine": "International",
+    "location": "Riyadh",
+    "rating": 4.9,
+    "pricePerPerson": 350,
+    "signature": "Premium International Buffet",
+    "description": "Luxury dining experience in iconic tower"
+  },
+  {
+    "id": 6,
+    "name": "Mama Noura",
+    "cuisine": "Lebanese",
+    "location": "Jeddah",
+    "rating": 4.4,
+    "pricePerPerson": 95,
+    "signature": "Fresh Shawarma and Mezze",
+    "description": "Popular Lebanese chain with authentic flavors"
+  },
+  {
+    "id": 7,
+    "name": "Al Baik",
+    "cuisine": "Fast Food",
+    "location": "Jeddah",
+    "rating": 4.8,
+    "pricePerPerson": 25,
+    "signature": "Famous Fried Chicken",
+    "description": "Saudi Arabia's beloved local fast food chain"
+  },
+  {
+    "id": 8,
+    "name": "Spazio",
+    "cuisine": "Italian",
+    "location": "Jeddah",
+    "rating": 4.6,
+    "pricePerPerson": 240,
+    "signature": "Wood-fired Pizza and Fresh Pasta",
+    "description": "Authentic Italian dining by the Red Sea"
+  },
+  {
+    "id": 9,
+    "name": "Shababeek",
+    "cuisine": "Lebanese",
+    "location": "Dammam",
+    "rating": 4.5,
+    "pricePerPerson": 140,
+    "signature": "Grilled Mezze and Fresh Seafood",
+    "description": "Traditional Lebanese restaurant with modern touch"
+  },
+  {
+    "id": 10,
+    "name": "House of Nomad",
+    "cuisine": "Fusion",
+    "location": "NEOM",
+    "rating": 4.7,
+    "pricePerPerson": 320,
+    "signature": "Desert-inspired Contemporary Cuisine",
+    "description": "Innovative dining experience in the future city"
+  }
+]
