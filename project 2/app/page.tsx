@@ -156,7 +156,7 @@ export default function Home() {
             className="mt-16"
           >
             <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">
-              What You'll Get
+              What You&apos;ll Get
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Card className="border-l-4 border-l-[#006C35]">

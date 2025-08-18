@@ -7,12 +7,19 @@ import { carRentalRates, getCarRecommendation } from '@/lib/car-rental';
 import restaurants from '@/data/restaurants.json';
 import { culturalTips, visaGuidance } from '@/data/cultural-tips';
 
-const groq = new Groq({
-  apiKey: process.env.GROQ_API_KEY!,
-});
+const groq = process.env.GROQ_API_KEY
+  ? new Groq({ apiKey: process.env.GROQ_API_KEY })
+  : null;
 
 export async function POST(request: NextRequest) {
   try {
+    if (!groq) {
+      return NextResponse.json(
+        { error: 'GROQ_API_KEY is not configured' },
+        { status: 500 }
+      );
+    }
+
     const data: QuestionnaireData = await request.json();
     
     // Get user's country and currency info
