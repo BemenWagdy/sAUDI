@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { 
+  images: {
     domains: ['i.ibb.co', 'quickchart.io', 'api.open-meteo.com'],
     unoptimized: true
   },
-  output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
   }

@@ -230,7 +230,7 @@ export default function QuestionnaireForm({ onSubmit, loading }: QuestionnaireFo
                 </div>
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="no" id="car-no" />
-                  <Label htmlFor="car-no">No, I'll use other transportation</Label>
+                  <Label htmlFor="car-no">No, I&apos;ll use other transportation</Label>
                 </div>
               </RadioGroup>
             </div>
